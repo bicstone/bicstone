@@ -1,0 +1,35 @@
+{
+  "author": "Oishi Takanori",
+  "bugs": {
+    "url": "https://github.com/bicstone/bicstone/issues"
+  },
+  "description": "A personal info for bicstone",
+  "devDependencies": {
+    "biome": "0.3.3",
+    "bun-types": "1.0.11",
+    "typescript": "5.2.2"
+  },
+  "files": [
+    "LICENSE",
+    "*.md",
+    "index.ts",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/bicstone/bicstone#readme",
+  "keywords": [
+    "portfolio",
+    "javascript",
+    "personal",
+    "hacktoberfest"
+  ],
+  "license": "MIT",
+  "module": "index.ts",
+  "name": "bicstone",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bicstone/bicstone.git"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "0.0.1"
+}

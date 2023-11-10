@@ -1,0 +1,3 @@
+{
+  "extends": ["github>bicstone/renovate-config"]
+}
