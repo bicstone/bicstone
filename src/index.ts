@@ -1,16 +1,16 @@
-export type UrlMetadata = {
+export interface UrlMetadata {
   faviconUrl: string;
   siteName: string;
   title: string;
   url: string;
-};
+}
 
-export type Bicstone = {
+export interface Bicstone {
   familyName: string;
   givenName: string;
   name: string;
   urls: UrlMetadata[];
-};
+}
 
 export const bicstone: Bicstone = {
   familyName: "Oishi",
