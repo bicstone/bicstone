@@ -1,13 +1,7 @@
 {
-  "extends": ["standard", "prettier"],
+  "extends": ["standard", "standard-with-typescript", "prettier"],
   "parserOptions": {
     "ecmaVersion": "latest",
     "project": "./tsconfig.json"
-  },
-  "overrides": [
-    {
-      "files": ["*.ts"],
-      "extends": ["standard-with-typescript", "prettier"]
-    }
-  ]
+  }
 }

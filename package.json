@@ -20,28 +20,29 @@
   "files": [
     "LICENSE",
     "*.md",
-    "index.ts",
-    "index.d.ts"
+    "build"
   ],
   "homepage": "https://github.com/bicstone/bicstone#readme",
   "keywords": [
     "portfolio",
     "javascript",
     "personal",
-    "hacktoberfest"
+    "hacktoberfest",
+    "npm card",
+    "npx card",
+    "business card"
   ],
   "license": "MIT",
-  "main": "./build/index.js",
   "name": "bicstone",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bicstone/bicstone.git"
   },
   "scripts": {
-    "build": "tsc --newLine LF",
-    "lint": "eslint --cache --ignore-path .eslintignore --max-warnings=0 --fix .",
-    "format": "prettier --cache --ignore-path .eslintignore --write .",
-    "typecheck": "tsc -p . --noEmit",
+    "build": "tsc -p .",
+    "lint": "eslint --cache --ignore-path .eslintignore --max-warnings=0 --fix ./src/**/*",
+    "format": "prettier --cache --ignore-path .eslintignore --write ./src/**/*",
+    "typecheck": "npm run build -- --noEmit",
     "prepare": "husky install"
   },
   "sideEffects": false,
@@ -49,5 +50,13 @@
   "version": "0.0.1",
   "volta": {
     "node": "20.9.0"
+  },
+  "type": "module",
+  "exports": "./build/index.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "bin": {
+    "bicstone": "./build/card.js"
   }
 }
