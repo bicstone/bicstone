@@ -1,0 +1,23 @@
+{
+  "name": "@bicstone/me",
+  "version": "0.0.1",
+  "description": "A personal information for bicstone",
+  "main": "./build/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bicstone/bicstone.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Oishi Takanori",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/bicstone/bicstone/issues"
+  },
+  "homepage": "https://github.com/bicstone/bicstone#readme"
+}
