@@ -15,14 +15,14 @@ jobs:
 
     defaults:
       run:
-        working-directory: packages/me
+        working-directory: ./packages/me
 
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version-file: ".node-version"
-          cache: "npm"
+          node-version-file: ./packages/me/.node-version
+          cache: npm
       - run: npm ci
       - run: npm run check
       - run: npm run build
