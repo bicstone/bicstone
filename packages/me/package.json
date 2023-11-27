@@ -5,15 +5,13 @@
 	},
 	"description": "A personal information for bicstone",
 	"devDependencies": {
-		"@biomejs/biome": "1.3.3",
-		"@types/node": "20.9.0",
 		"typescript": "5.2.2"
 	},
 	"engines": {
 		"node": ">=14.0.0"
 	},
 	"exports": "./build/index.js",
-	"files": ["LICENSE", "*.md", "build"],
+	"files": ["LICENSE", "build"],
 	"homepage": "https://github.com/bicstone/bicstone#readme",
 	"keywords": [
 		"portfolio",
@@ -25,7 +23,6 @@
 		"business card"
 	],
 	"license": "CC0-1.0",
-	"main": "./build/index.js",
 	"name": "@bicstone/me",
 	"repository": {
 		"type": "git",
@@ -38,8 +35,5 @@
 	"sideEffects": false,
 	"type": "module",
 	"types": "./build/index.d.ts",
-	"version": "0.0.1",
-	"volta": {
-		"node": "20.9.0"
-	}
+	"version": "0.0.1"
 }
