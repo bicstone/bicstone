@@ -1,65 +1,13 @@
 {
-  "author": "Oishi Takanori",
-  "bugs": {
-    "url": "https://github.com/bicstone/bicstone/issues"
-  },
-  "description": "A personal information for bicstone",
-  "devDependencies": {
-    "@types/node": "20.9.0",
-    "@typescript-eslint/eslint-plugin": "6.10.0",
-    "eslint": "8.53.0",
-    "eslint-config-prettier": "9.0.0",
-    "eslint-config-standard-with-typescript": "39.1.1",
-    "eslint-plugin-import": "2.29.0",
-    "eslint-plugin-n": "16.3.1",
-    "eslint-plugin-promise": "6.1.1",
-    "husky": "8.0.3",
-    "prettier": "3.0.3",
-    "typescript": "5.2.2"
-  },
-  "files": [
-    "LICENSE",
-    "*.md",
-    "build"
-  ],
-  "homepage": "https://github.com/bicstone/bicstone#readme",
-  "keywords": [
-    "portfolio",
-    "javascript",
-    "personal",
-    "hacktoberfest",
-    "npm card",
-    "npx card",
-    "business card"
-  ],
-  "license": "MIT",
-  "name": "bicstone",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bicstone/bicstone.git"
-  },
-  "scripts": {
-    "build": "tsc -p .",
-    "lint": "eslint --cache --ignore-path .eslintignore --max-warnings=0 --fix ./src/**/*",
-    "format": "prettier --cache --ignore-path .eslintignore --write ./src/**/*",
-    "typecheck": "npm run build -- --noEmit",
-    "prepare": "husky install"
-  },
-  "sideEffects": false,
-  "types": "./build/index.d.ts",
-  "version": "0.0.1",
-  "volta": {
-    "node": "20.9.0"
-  },
-  "type": "module",
-  "exports": "./build/index.js",
-  "engines": {
-    "node": ">=14.0.0"
-  },
-  "bin": {
-    "bicstone": "./build/card.js"
-  },
+  "private": true,
+  "license": "CC0-1.0",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "husky": "8.0.3"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
 }

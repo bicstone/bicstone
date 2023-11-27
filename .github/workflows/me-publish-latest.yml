@@ -1,4 +1,4 @@
-name: Publish (latest)
+name: bicstone/me - Publish (latest)
 
 on:
   release:

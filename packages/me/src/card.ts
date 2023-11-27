@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 import * as os from "os";
 import { bicstone } from "./index.js";
 

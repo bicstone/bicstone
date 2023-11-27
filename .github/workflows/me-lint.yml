@@ -1,8 +1,10 @@
-name: Linter
+name: bicstone/me - Lint
 
 on:
   push:
     branches: [main]
+    paths:
+      - packages/me/**
   pull_request:
     types: [opened, synchronize, reopened]
 

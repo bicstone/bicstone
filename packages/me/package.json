@@ -1,23 +1,45 @@
 {
-  "name": "@bicstone/me",
-  "version": "0.0.1",
-  "description": "A personal information for bicstone",
-  "main": "./build/index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bicstone/bicstone.git"
-  },
-  "keywords": [
-    "portfolio"
-  ],
-  "author": "Oishi Takanori",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/bicstone/bicstone/issues"
-  },
-  "homepage": "https://github.com/bicstone/bicstone#readme"
+	"author": "Oishi Takanori",
+	"bugs": {
+		"url": "https://github.com/bicstone/bicstone/issues"
+	},
+	"description": "A personal information for bicstone",
+	"devDependencies": {
+		"@biomejs/biome": "1.3.3",
+		"@types/node": "20.9.0",
+		"typescript": "5.2.2"
+	},
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"exports": "./build/index.js",
+	"files": ["LICENSE", "*.md", "build"],
+	"homepage": "https://github.com/bicstone/bicstone#readme",
+	"keywords": [
+		"portfolio",
+		"javascript",
+		"personal",
+		"hacktoberfest",
+		"npm card",
+		"npx card",
+		"business card"
+	],
+	"license": "CC0-1.0",
+	"main": "./build/index.js",
+	"name": "@bicstone/me",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bicstone/bicstone.git"
+	},
+	"scripts": {
+		"build": "tsc -p .",
+		"check": "biome check . --apply"
+	},
+	"sideEffects": false,
+	"type": "module",
+	"types": "./build/index.d.ts",
+	"version": "0.0.1",
+	"volta": {
+		"node": "20.9.0"
+	}
 }
