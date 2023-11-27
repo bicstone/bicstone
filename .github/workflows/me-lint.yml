@@ -8,14 +8,14 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 
-defaults:
-  run:
-    working-directory: ./packages/me
-
 jobs:
-  Linter:
+  lint:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+
+    defaults:
+      run:
+        working-directory: packages/me
 
     steps:
       - uses: actions/checkout@v4

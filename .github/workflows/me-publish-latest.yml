@@ -7,15 +7,15 @@ on:
 permissions:
   id-token: write
 
-defaults:
-  run:
-    working-directory: ./packages/me
-
 jobs:
   publish:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     environment: npm
+
+    defaults:
+      run:
+        working-directory: packages/me
 
     steps:
       - uses: actions/checkout@v4
