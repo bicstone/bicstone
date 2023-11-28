@@ -6,6 +6,9 @@
 	"bugs": {
 		"url": "https://github.com/bicstone/bicstone/issues"
 	},
+	"dependencies": {
+		"chalk": "5.3.0"
+	},
 	"description": "A personal information for bicstone",
 	"devDependencies": {
 		"typescript": "5.2.2"
