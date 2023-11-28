@@ -11,7 +11,7 @@
 		"typescript": "5.2.2"
 	},
 	"engines": {
-		"node": ">=6.0.0"
+		"node": ">=16.0.0"
 	},
 	"files": ["LICENSE", "dist"],
 	"homepage": "https://github.com/bicstone/bicstone#readme",
@@ -25,6 +25,7 @@
 		"business card"
 	],
 	"license": "CC0-1.0",
+	"main": "./dist/index.js",
 	"name": "bicstone",
 	"repository": {
 		"type": "git",
@@ -35,6 +36,8 @@
 		"check": "biome check . --apply"
 	},
 	"sideEffects": false,
+	"type": "module",
 	"types": "./dist/index.d.ts",
+	"typings": "./dist/index.d.ts",
 	"version": "0.0.1"
 }

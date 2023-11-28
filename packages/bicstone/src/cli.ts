@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { EOL } from "os";
-import { bicstone } from "./index";
+import { bicstone } from "./index.js";
 
 const output = bicstone.name;
 

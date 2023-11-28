@@ -1,11 +1,11 @@
-export interface Link {
+interface Link {
 	isActive: boolean;
 	screenName: string | null;
 	siteName: string;
 	url: string;
 }
 
-export interface Bicstone {
+interface Bicstone {
 	familyName: string;
 	givenName: string;
 	links: Record<string, Link>;
