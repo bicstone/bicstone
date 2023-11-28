@@ -21,7 +21,7 @@ jobs:
           registry-url: https://registry.npmjs.org
           cache: npm
       - run: npm ci
-      - run: npm run build --workspace=bicstone
+      - run: npm run build
       - run: npm publish --workspace=bicstone --provenance --tag=latest
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
