@@ -1,18 +1,17 @@
 {
 	"author": "Oishi Takanori",
 	"bin": {
-		"bicstone": "./build/index.js"
+		"bicstone": "./build/cli.js"
 	},
 	"bugs": {
 		"url": "https://github.com/bicstone/bicstone/issues"
 	},
-	"description": "A personal information card for bicstone",
+	"description": "A personal information for bicstone",
 	"devDependencies": {
-		"@vercel/ncc": "0.38.1",
 		"typescript": "5.2.2"
 	},
 	"engines": {
-		"node": ">=4.0.0"
+		"node": ">=6.0.0"
 	},
 	"files": ["LICENSE", "dist"],
 	"homepage": "https://github.com/bicstone/bicstone#readme",
@@ -26,16 +25,16 @@
 		"business card"
 	],
 	"license": "CC0-1.0",
-	"main": "./dist/index.js",
 	"name": "bicstone",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/bicstone/bicstone.git"
 	},
 	"scripts": {
-		"build": "ncc build ./src/index.ts --target es2015 --license index.js.LICENSE.txt",
+		"build": "tsc",
 		"check": "biome check . --apply"
 	},
 	"sideEffects": false,
+	"types": "./dist/index.d.ts",
 	"version": "0.0.1"
 }
