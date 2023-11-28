@@ -7,12 +7,13 @@ import { type Link, bicstone } from "./index.js";
 const LINK_TITLE_LENGTH = 9;
 
 const formatLink = (link: Link) => {
-	const title = f.bold(link.siteName.padEnd(LINK_TITLE_LENGTH, " "));
-
 	const parts = link.url.split("/");
-	parts[parts.length - 1] = f.bold(f.green(parts[parts.length - 1]));
+	const styledParts = parts.map((part, index) =>
+		index === parts.length - 1 ? f.bold(f.green(part)) : f.gray(part),
+	);
 
-	const url = f.underline(f.gray(parts.join("/")));
+	const title = f.bold(link.siteName.padEnd(LINK_TITLE_LENGTH, " "));
+	const url = f.underline(styledParts.join("/"));
 
 	return `${title}: ${url}`;
 };

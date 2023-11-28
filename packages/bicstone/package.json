@@ -11,6 +11,7 @@
 	},
 	"description": "A personal information for bicstone",
 	"devDependencies": {
+		"esbuild": "0.19.8",
 		"typescript": "5.2.2"
 	},
 	"engines": {
@@ -35,7 +36,9 @@
 		"url": "git+https://github.com/bicstone/bicstone.git"
 	},
 	"scripts": {
-		"build": "tsc",
+		"build": "npm run build:types && npm run build:bundle",
+		"build:bundle": "esbuild ./src/*.ts --bundle --platform=node --format=esm --outdir=dist --allow-overwrite --target=node16",
+		"build:types": "tsc --emitDeclarationOnly",
 		"check": "biome check . --apply"
 	},
 	"sideEffects": false,
