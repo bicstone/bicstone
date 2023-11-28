@@ -19,9 +19,9 @@ export const bicstone = {
 	links: {
 		bluesky: {
 			isActive: true,
-			screenName: "@bicstone",
-			siteName: "LinkedIn",
-			url: "https://www.linkedin.com/in/bicstone/",
+			screenName: "@bicstone.me",
+			siteName: "Bluesky",
+			url: "https://bsky.app/profile/bicstone.me",
 		},
 		facebook: {
 			isActive: true,
@@ -68,7 +68,7 @@ export const bicstone = {
 		mstdn: {
 			isActive: false,
 			screenName: "@bicstone",
-			siteName: "Mastodon",
+			siteName: "mstdn.jp",
 			url: "https://mstdn.jp/@bicstone",
 		},
 		note: {
