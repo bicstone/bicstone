@@ -18,5 +18,5 @@ jobs:
           node-version-file: .node-version
           cache: npm
       - run: npm ci
-      - run: npm run check --workspaces --if-present
-      - run: npm run build --workspaces --if-present
+      - run: npm run check --workspaces
+      - run: npm run build --workspaces
