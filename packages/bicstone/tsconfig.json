@@ -1,0 +1,7 @@
+{
+	// https://github.com/vercel/ncc/blob/3c68358848230bfcd716242a66373f9b84b6ab3a/readme.md
+	"compilerOptions": {
+		"target": "es2015",
+		"moduleResolution": "node"
+	}
+}

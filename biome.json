@@ -8,5 +8,10 @@
 	},
 	"organizeImports": {
 		"enabled": true
+	},
+	"vcs": {
+		"clientKind": "git",
+		"enabled": true,
+		"useIgnoreFile": true
 	}
 }
