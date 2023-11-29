@@ -9,11 +9,11 @@ const LINK_TITLE_LENGTH = 9;
 const formatLink = (link: Link) => {
 	const parts = link.url.split("/");
 	const styledParts = parts.map((part, index) =>
-		index === parts.length - 1 ? f.bold(f.green(part)) : f.gray(part),
+		index === parts.length - 1 ? f.green(part) : f.gray(part),
 	);
 
 	const title = f.bold(link.siteName.padEnd(LINK_TITLE_LENGTH, " "));
-	const url = f.underline(styledParts.join("/"));
+	const url = f.underline(f.gray(styledParts.join("/")));
 
 	return `${title}: ${url}`;
 };
