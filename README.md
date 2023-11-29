@@ -1,4 +1,4 @@
 ```sh
-# Requires (Node.js >= 4 && npm >= 5.2.0)
-npx bicstone
+# requires Node.js >= 16
+> npx bicstone
 ```
