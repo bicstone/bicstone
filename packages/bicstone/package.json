@@ -1,8 +1,6 @@
 {
 	"author": "Oishi Takanori",
-	"bin": {
-		"bicstone": "./build/cli.js"
-	},
+	"bin": "./dist/cli.js",
 	"bugs": {
 		"url": "https://github.com/bicstone/bicstone/issues"
 	},
@@ -44,5 +42,5 @@
 	"type": "module",
 	"types": "./dist/index.d.ts",
 	"typings": "./dist/index.d.ts",
-	"version": "0.0.1"
+	"version": "0.0.2"
 }
