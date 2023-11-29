@@ -1,0 +1,23 @@
+{
+	"devDependencies": {
+		"@biomejs/biome": "1.4.0",
+		"@types/node": "20.10.0",
+		"husky": "8.0.3"
+	},
+	"engines": {
+		"node": "20.9.0",
+		"npm": "10.1.0"
+	},
+	"license": "CC0-1.0",
+	"private": true,
+	"scripts": {
+		"check": "npm run check --workspaces",
+		"build": "npm run build --workspaces",
+		"prepare": "husky install",
+		"preinstall": "npx only-allow npm"
+	},
+	"volta": {
+		"node": "20.9.0"
+	},
+	"workspaces": ["packages/*"]
+}
