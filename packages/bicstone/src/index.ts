@@ -5,7 +5,7 @@ export interface Link {
 	url: string;
 }
 
-export interface Bicstone {
+interface _Bicstone {
 	familyName: string;
 	givenName: string;
 	links: Record<string, Link>;
@@ -122,4 +122,8 @@ export const bicstone = {
 	},
 	name: "Oishi Takanori",
 	work: "Web Developer",
-} as const satisfies Bicstone;
+} as const satisfies _Bicstone;
+
+export type Bicstone = typeof bicstone;
+
+export type LinkKeys = keyof Bicstone["links"];
