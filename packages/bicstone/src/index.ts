@@ -84,7 +84,7 @@ export const bicstone = {
 			url: "https://bicstone.me",
 		},
 		qiita: {
-			isActive: false,
+			isActive: true,
 			screenName: "bicstone",
 			siteName: "Qiita",
 			url: "https://qiita.com/bicstone",
@@ -112,6 +112,12 @@ export const bicstone = {
 			screenName: "bicstone",
 			siteName: "YouTrust",
 			url: "https://youtrust.jp/users/bicstone",
+		},
+		wantedly: {
+			isActive: true,
+			screenName: "bicstone",
+			siteName: "Wantedly",
+			url: "https://www.wantedly.com/id/bicstone",
 		},
 		zenn: {
 			isActive: true,
