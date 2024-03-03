@@ -29,7 +29,6 @@ const links: Link[] = [
 	bicstone.links.github,
 	bicstone.links.zenn,
 	bicstone.links.note,
-	bicstone.links.qiita,
 ];
 
 const formattedLinks = links.map((link) => formatLink(link));
