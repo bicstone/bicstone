@@ -23,6 +23,12 @@ export const bicstone = {
 			siteName: "Bluesky",
 			url: "https://bsky.app/profile/bicstone.me",
 		},
+		connpass: {
+			isActive: true,
+			screenName: "bicstone",
+			siteName: "connpass",
+			url: "https://connpass.com/user/bicstone",
+		},
 		facebook: {
 			isActive: true,
 			screenName: "oishi.takanori",
