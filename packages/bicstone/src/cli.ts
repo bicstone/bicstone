@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { EOL } from "os";
+import { EOL } from "node:os";
 import f from "chalk";
 import { type Link, bicstone } from "./index.js";
 
