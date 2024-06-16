@@ -7,7 +7,7 @@
 	"description": "A personal information for bicstone",
 	"devDependencies": {
 		"chalk": "5.3.0",
-		"esbuild": "0.21.4",
+		"esbuild": "0.21.5",
 		"esbuild-plugin-license": "1.2.2",
 		"typescript": "5.4.5"
 	},
