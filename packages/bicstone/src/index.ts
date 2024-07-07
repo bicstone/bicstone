@@ -83,6 +83,12 @@ export const bicstone = {
 			siteName: "note",
 			url: "https://note.com/bicstone",
 		},
+		npm: {
+			isActive: true,
+			screenName: "bicstone",
+			siteName: "npm",
+			url: "https://www.npmjs.com/~bicstone",
+		},
 		portfolio: {
 			isActive: true,
 			screenName: null,

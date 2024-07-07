@@ -22,11 +22,11 @@ const name = f.bold(f.bgGreen(`${bicstone.name} (${bicstone.work})`));
 const portfolio = f.bold(f.bgGreen(bicstone.links.portfolio.url));
 const links: Link[] = [
 	bicstone.links.x,
-	bicstone.links.bluesky,
 	bicstone.links.facebook,
 	bicstone.links.linkedin,
 	bicstone.links.youtrust,
 	bicstone.links.github,
+	bicstone.links.npm,
 	bicstone.links.zenn,
 	bicstone.links.note,
 ];
