@@ -1,7 +1,7 @@
 {
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"@types/node": "20.16.13",
+		"@types/node": "20.17.1",
 		"husky": "9.1.6"
 	},
 	"engines": {
