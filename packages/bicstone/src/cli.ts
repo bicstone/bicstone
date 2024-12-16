@@ -29,6 +29,8 @@ const links: Link[] = [
 	bicstone.links.npm,
 	bicstone.links.zenn,
 	bicstone.links.note,
+	bicstone.links.qiita,
+	bicstone.links.instagram,
 ];
 
 const formattedLinks = links.map((link) => formatLink(link));

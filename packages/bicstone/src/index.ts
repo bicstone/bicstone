@@ -53,6 +53,12 @@ export const bicstone = {
 			siteName: "GitHub",
 			url: "https://github.com/bicstone",
 		},
+		instagram: {
+			isActive: true,
+			screenName: "bicstone_me",
+			siteName: "Instagram",
+			url: "https://www.instagram.com/bicstone_me",
+		},
 		lapras: {
 			isActive: true,
 			screenName: "bicstone",
