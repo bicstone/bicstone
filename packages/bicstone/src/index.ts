@@ -74,7 +74,7 @@ export const bicstone = {
 		mixi2: {
 			isActive: true,
 			screenName: "bicstone",
-			siteName: "mixi",
+			siteName: "mixi2",
 			url: "https://mixi.social/@bicstone",
 		},
 		misskey: {
