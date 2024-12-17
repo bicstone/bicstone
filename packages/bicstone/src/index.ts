@@ -71,6 +71,12 @@ export const bicstone = {
 			siteName: "LinkedIn",
 			url: "https://www.linkedin.com/in/bicstone",
 		},
+		mixi2: {
+			isActive: true,
+			screenName: "bicstone",
+			siteName: "mixi",
+			url: "https://mixi.social/@bicstone",
+		},
 		misskey: {
 			isActive: false,
 			screenName: "bicstone",

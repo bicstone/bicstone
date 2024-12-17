@@ -25,12 +25,13 @@ const links: Link[] = [
 	bicstone.links.facebook,
 	bicstone.links.linkedin,
 	bicstone.links.youtrust,
+	bicstone.links.instagram,
+	bicstone.links.mixi2,
 	bicstone.links.github,
 	bicstone.links.npm,
 	bicstone.links.zenn,
 	bicstone.links.note,
 	bicstone.links.qiita,
-	bicstone.links.instagram,
 ];
 
 const formattedLinks = links.map((link) => formatLink(link));
