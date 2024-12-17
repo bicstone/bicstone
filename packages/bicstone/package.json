@@ -1,46 +1,49 @@
 {
-	"author": "Oishi Takanori",
-	"bin": "./dist/cli.js",
-	"bugs": {
-		"url": "https://github.com/bicstone/bicstone/issues"
-	},
-	"description": "A personal information for bicstone",
-	"devDependencies": {
-		"chalk": "5.3.0",
-		"esbuild": "0.24.0",
-		"esbuild-plugin-license": "1.2.3",
-		"typescript": "5.7.2"
-	},
-	"engines": {
-		"node": ">=16.0.0"
-	},
-	"files": ["LICENSE", "dist"],
-	"homepage": "https://github.com/bicstone/bicstone#readme",
-	"keywords": [
-		"portfolio",
-		"javascript",
-		"personal",
-		"hacktoberfest",
-		"npm card",
-		"npx card",
-		"business card"
-	],
-	"license": "CC0-1.0",
-	"main": "./dist/index.js",
-	"name": "bicstone",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/bicstone/bicstone.git"
-	},
-	"scripts": {
-		"build": "npm run build:types && npm run build:bundle",
-		"build:bundle": "node build.js",
-		"build:types": "tsc --emitDeclarationOnly",
-		"check": "biome check . --apply"
-	},
-	"sideEffects": false,
-	"type": "module",
-	"types": "./dist/index.d.ts",
-	"typings": "./dist/index.d.ts",
-	"version": "1.6.0"
+  "author": "Oishi Takanori",
+  "bin": "./dist/cli.js",
+  "bugs": {
+    "url": "https://github.com/bicstone/bicstone/issues"
+  },
+  "description": "A personal information for bicstone",
+  "devDependencies": {
+    "chalk": "5.3.0",
+    "esbuild": "0.24.0",
+    "esbuild-plugin-license": "1.2.3",
+    "typescript": "5.7.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "LICENSE",
+    "dist"
+  ],
+  "homepage": "https://github.com/bicstone/bicstone#readme",
+  "keywords": [
+    "portfolio",
+    "javascript",
+    "personal",
+    "hacktoberfest",
+    "npm card",
+    "npx card",
+    "business card"
+  ],
+  "license": "CC0-1.0",
+  "main": "./dist/index.js",
+  "name": "bicstone",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bicstone/bicstone.git"
+  },
+  "scripts": {
+    "build": "npm run build:types && npm run build:bundle",
+    "build:bundle": "node build.js",
+    "build:types": "tsc --emitDeclarationOnly",
+    "check": "biome check . --apply"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "typings": "./dist/index.d.ts",
+  "version": "1.6.1"
 }
