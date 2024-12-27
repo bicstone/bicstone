@@ -1,23 +1,20 @@
 {
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"@types/node": "20.17.10",
+		"@types/node": "22.10.2",
 		"husky": "9.1.7"
-	},
-	"engines": {
-		"node": "20.18.1",
-		"npm": "10.9.1"
 	},
 	"license": "CC0-1.0",
 	"private": true,
 	"scripts": {
-		"check": "npm run check --workspaces",
-		"build": "npm run build --workspaces",
+		"check": "pnpm run --filter ./packages/** check",
+		"build": "pnpm run --filter ./packages/** build",
 		"prepare": "husky",
-		"preinstall": "npx only-allow npm"
+		"preinstall": "npx only-allow pnpm"
 	},
 	"volta": {
-		"node": "20.18.1"
+		"node": "22.12.0",
+		"pnpm": "9.15.1"
 	},
-	"workspaces": ["packages/*"]
+	"packageManager": "pnpm@9.15.1"
 }

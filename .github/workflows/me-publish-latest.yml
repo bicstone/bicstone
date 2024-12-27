@@ -19,10 +19,10 @@ jobs:
         with:
           node-version-file: .node-version
           registry-url: https://registry.npmjs.org
-          cache: npm
-      - run: npm install
-      - run: npm audit signatures
-      - run: npm run build
-      - run: npm publish --workspace=bicstone --provenance --tag=latest
+          cache: pnpm
+      - uses: pnpm/action-setup@v4
+      - run: pnpm install
+      - run: pnpm run build
+      - run: pnpm publish --workspace=bicstone --provenance --tag=latest
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
