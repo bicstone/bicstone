@@ -23,6 +23,7 @@ jobs:
           cache: pnpm
       - run: pnpm install
       - run: pnpm run build
-      - run: pnpm publish --workspace=bicstone --provenance --tag=latest
+      - run: pnpm publish --tag=latest --filter ./packages/bicstone
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_CONFIG_PROVENANCE: true
