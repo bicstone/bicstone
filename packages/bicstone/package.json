@@ -9,7 +9,7 @@
 		"chalk": "5.4.1",
 		"esbuild": "0.25.0",
 		"esbuild-plugin-license": "1.2.3",
-		"typescript": "5.7.3"
+		"typescript": "5.8.2"
 	},
 	"engines": {
 		"node": ">=16.0.0"
