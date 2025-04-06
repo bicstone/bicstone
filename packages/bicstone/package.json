@@ -7,9 +7,9 @@
 	"description": "A personal information for bicstone",
 	"devDependencies": {
 		"chalk": "5.4.1",
-		"esbuild": "0.25.1",
+		"esbuild": "0.25.2",
 		"esbuild-plugin-license": "1.2.3",
-		"typescript": "5.8.2"
+		"typescript": "5.8.3"
 	},
 	"engines": {
 		"node": ">=16.0.0"
