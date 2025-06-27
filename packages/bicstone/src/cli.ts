@@ -2,7 +2,7 @@
 
 import { EOL } from "node:os";
 import f from "chalk";
-import { type Link, bicstone } from "./index.js";
+import { bicstone, type Link } from "./index.js";
 
 const LINK_TITLE_LENGTH = 9;
 
