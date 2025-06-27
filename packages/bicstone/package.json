@@ -14,7 +14,10 @@
 	"engines": {
 		"node": ">=16.0.0"
 	},
-	"files": ["LICENSE", "dist"],
+	"files": [
+		"LICENSE",
+		"dist"
+	],
 	"homepage": "https://github.com/bicstone/bicstone#readme",
 	"keywords": [
 		"portfolio",
@@ -36,7 +39,7 @@
 		"build": "npm run build:types && npm run build:bundle",
 		"build:bundle": "node build.js",
 		"build:types": "tsc --emitDeclarationOnly",
-		"check": "biome check . --apply"
+		"check": "biome check . --write"
 	},
 	"sideEffects": false,
 	"type": "module",
