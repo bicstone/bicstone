@@ -1,7 +1,7 @@
 {
 	"devDependencies": {
-		"@biomejs/biome": "2.1.4",
-		"@types/node": "22.17.1",
+		"@biomejs/biome": "2.2.0",
+		"@types/node": "22.17.2",
 		"husky": "9.1.7"
 	},
 	"license": "CC0-1.0",
