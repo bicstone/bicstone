@@ -12,8 +12,8 @@ importers:
         specifier: 2.2.2
         version: 2.2.2
       '@types/node':
-        specifier: 22.17.2
-        version: 22.17.2
+        specifier: 22.18.0
+        version: 22.18.0
       husky:
         specifier: 9.1.7
         version: 9.1.7
@@ -244,8 +244,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@types/node@22.17.2':
-    resolution: {integrity: sha512-gL6z5N9Jm9mhY+U2KXZpteb+09zyffliRkZyZOHODGATyC5B1Jt/7TzuuiLkFsSUMLbS1OLmlj/E+/3KF4Q/4w==}
+  '@types/node@22.18.0':
+    resolution: {integrity: sha512-m5ObIqwsUp6BZzyiy4RdZpzWGub9bqLJMvZDD0QMXhxjqMHMENlj+SqF5QxoUwaQNFe+8kz8XM8ZQhqkQPTgMQ==}
 
   chalk@5.6.0:
     resolution: {integrity: sha512-46QrSQFyVSEyYAgQ22hQ+zDa60YHA4fBstHmtSApj1Y5vKtG27fWowW03jCk5KcbXEWPZUIR894aARCA/G1kfQ==}
@@ -389,7 +389,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.9':
     optional: true
 
-  '@types/node@22.17.2':
+  '@types/node@22.18.0':
     dependencies:
       undici-types: 6.21.0
 
