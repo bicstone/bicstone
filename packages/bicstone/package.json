@@ -6,7 +6,7 @@
 	},
 	"description": "A personal information for bicstone",
 	"devDependencies": {
-		"@types/node": "24.13.2",
+		"@types/node": "24.13.3",
 		"chalk": "5.6.2",
 		"esbuild": "0.28.1",
 		"esbuild-plugin-license": "1.2.3",
