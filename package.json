@@ -1,6 +1,6 @@
 {
 	"devDependencies": {
-		"@biomejs/biome": "2.5.3",
+		"@biomejs/biome": "2.5.4",
 		"@types/node": "24.13.3",
 		"husky": "9.1.7"
 	},
